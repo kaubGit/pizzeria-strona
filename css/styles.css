@@ -201,3 +201,7 @@ html {
 #f-menu a:hover {
     color: #FFD77F;
 }
+
+#s2 div img {
+    width: 98%;
+}
