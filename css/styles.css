@@ -60,24 +60,6 @@ html {
     color: #FFD77F;
 }
 
-#banner-half1 form input[type="text"] {
-    width: 100%;
-    height: 10%;
-    background: none;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    border-bottom: 4px, solid, white;
-    color: white;
-    font-size: large;
-    font-family: cursive;
-    margin-bottom: 10px;
-}
-
-#banner-half1 form input[type="text"]:focus {
-    outline: none;
-}
-
 #p1 {
     color: #7fd7ff;
     border-color: #7fd7ff;
@@ -87,28 +69,45 @@ html {
 }
 
 #p1:hover {
-    color: white;
-    background-color: rgba(127, 215, 255, 0.4);
+    color: #333333;
+    border-color: #333333;
+    background: none;
     transition: 0.4s;
     cursor: pointer;
 }
 
 #p2 {
     color: #ffd77f;
+    background-color: rgba(147, 108, 2, 0.8);
     border-color: #ffd77f;
-    background: none;
     transition: 0.4s;
     font-family: cursive;
 }
 
 #p2:hover {
-    color: white;
-    background-color: rgba(255, 215, 127, 0.4);
+    color: #333333;
+    background: none;
+    border-color: #333333;
     transition: 0.4s;
     cursor: pointer;
 }
 
-#banner-half1 form {
+#banner-half1 div {
+    margin-left: 40px;
+    margin-top: 3%;
+}
+
+#banner-half1 div button {
+    padding: 10px;
+}
+
+#banner-half1 div p {
+    font-family: cursive;
+    border-bottom: 2px solid white;
+    line-height: 40px;
+}
+
+/*#banner-half1 form {
     position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -119,7 +118,7 @@ html {
 
 #banner-half1 form input[type="submit"] {
     padding: 10px;
-}
+}*/
 
 #banner-half2 {
     background-image: url('../img/pizza-3007395_1280.jpg');
