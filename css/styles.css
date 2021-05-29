@@ -97,7 +97,7 @@ html {
     margin-top: 3%;
 }
 
-#banner-half1 div button {
+#banner-half1 div input[type="submit"] {
     padding: 10px;
 }
 
