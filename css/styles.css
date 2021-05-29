@@ -1,0 +1,203 @@
+html {
+    background-image: url(../img/wood-2203740_1280.jpg);
+}
+
+#banner-half1, #banner-half2, #header, #footer {
+    background-color: rgba(0, 0, 0, 1);
+    padding: 5px;
+    font-family: 'Cookie', cursive;
+    color: white;
+}
+
+#header {
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#menu {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+#menu a {
+    margin-right: 5%;
+}
+
+#numer {
+    width: 10%;
+    text-align: center;
+}
+
+#logo {
+    width: 10%;
+    margin-left: 10px;
+}
+
+#logo img {
+    width: 30%;
+}
+
+#banner-half2, #banner-half1{
+    height: 200px;
+    width: 50%;
+}
+
+#banner {
+    display: flex;
+    flex-direction: row;
+}
+
+#header a {
+    font-size: 1.4em;
+    text-decoration: underline;
+    color: white;
+}
+
+#header a:hover {
+    color: #FFD77F;
+}
+
+#banner-half1 form input[type="text"] {
+    width: 100%;
+    height: 10%;
+    background: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 4px, solid, white;
+    color: white;
+    font-size: large;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+
+#banner-half1 form input[type="text"]:focus {
+    outline: none;
+}
+
+#p1 {
+    color: #7fd7ff;
+    border-color: #7fd7ff;
+    background: none;
+    transition: 0.4s;
+    font-family: cursive;
+}
+
+#p1:hover {
+    color: white;
+    background-color: rgba(127, 215, 255, 0.4);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#p2 {
+    color: #ffd77f;
+    border-color: #ffd77f;
+    background: none;
+    transition: 0.4s;
+    font-family: cursive;
+}
+
+#p2:hover {
+    color: white;
+    background-color: rgba(255, 215, 127, 0.4);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#banner-half1 form {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-left: 40px;
+}
+
+#banner-half1 form input[type="submit"] {
+    padding: 10px;
+}
+
+#banner-half2 {
+    background-image: url('../img/pizza-3007395_1280.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#s1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    font-family: cursive;
+    text-align: right;
+}
+
+#s1 div {
+    width: 31%;
+    border: 5px solid black;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+}
+
+#div1 {
+    background-image: url('../img/olive-oil-1412361__340.jpg');
+}
+
+#div2 {
+    background-image: url('../img/cook-1375788_960_720.jpg');
+}
+
+#div3 {
+    background-image: url('../img/motor-scooter-4837310_960_720.jpg');
+}
+
+#s1 div p {
+    margin-top: 16%;
+    margin-right: 2%;
+    color: white;
+}
+
+#s2 {
+    background-color: black;
+    height: 480px;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#s2 div {
+    width: 24%;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 14px;
+}
+
+#footer {
+    height: 35px;
+    background-color: black;
+}
+
+#f-menu {
+    width: 20%;
+    margin: auto;
+    font-family: 'Cookie', cursive;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#f-menu a {
+    text-decoration: underline;
+    font-size: 20px;
+    color: white;
+}
+
+#f-menu a:hover {
+    color: #FFD77F;
+}
