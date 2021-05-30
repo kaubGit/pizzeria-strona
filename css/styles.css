@@ -12,12 +12,12 @@ html {
 #header {
     height: 10%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 #menu {
-    width: 60%;
+    width: 20%;
     text-align: center;
     margin: auto;
 }
@@ -28,7 +28,7 @@ html {
 
 #numer {
     width: 10%;
-    text-align: center;
+    text-align: left;
 }
 
 #logo {
@@ -41,7 +41,7 @@ html {
 }
 
 #banner-half2, #banner-half1{
-    height: 200px;
+    height: 160px;
     width: 50%;
 }
 
@@ -94,11 +94,11 @@ html {
 
 #banner-half1 div {
     margin-left: 40px;
-    margin-top: 3%;
 }
 
 #banner-half1 div input[type="submit"] {
     padding: 10px;
+    font-size: 12px;
 }
 
 #banner-half1 div p {
@@ -137,7 +137,7 @@ html {
 #s1 div {
     width: 31%;
     border: 5px solid black;
-    height: 150px;
+    height: 120px;
     background-position: center;
     background-size: cover;
 }
@@ -155,14 +155,14 @@ html {
 }
 
 #s1 div p {
-    margin-top: 16%;
+    margin-top: 11%;
     margin-right: 2%;
     color: white;
 }
 
 #s2 {
     background-color: black;
-    height: 480px;
+    height: 460px;
     margin-top: 2%;
     display: flex;
     justify-content: space-around;
