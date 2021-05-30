@@ -71,7 +71,6 @@ html {
 #p1:hover {
     color: #333333;
     border-color: #333333;
-    background: none;
     transition: 0.4s;
     cursor: pointer;
 }
@@ -86,7 +85,6 @@ html {
 
 #p2:hover {
     color: #333333;
-    background: none;
     border-color: #333333;
     transition: 0.4s;
     cursor: pointer;
